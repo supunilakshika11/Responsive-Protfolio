@@ -1,12 +1,12 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #eef2ff;
-  margin: 0;
   color: #1f2937;
+  margin: 0;
 }
 
-#root {
-  min-height: 100vh;
+html {
+  scroll-behavior: smooth;
 }
 
 .hero-section {

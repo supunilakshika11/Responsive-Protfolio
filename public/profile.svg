@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Profile picture</title>
+  <desc id="desc">A simple circular profile illustration for Supuni Lakshika.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="40" fill="#eef2ff" />
+  <circle cx="200" cy="140" r="90" fill="url(#grad)" opacity="0.95" />
+  <circle cx="200" cy="140" r="68" fill="#f8fafc" />
+  <circle cx="200" cy="128" r="18" fill="#1e3a8a" />
+  <path d="M148 240c0-38 32-68 72-68s72 30 72 68v38H148v-38Z" fill="#1d4ed8" opacity="0.85" />
+  <path d="M135 310c0-47 40-85 90-85s90 38 90 85v25H135v-25Z" fill="#1e40af" opacity="0.7" />
+</svg>

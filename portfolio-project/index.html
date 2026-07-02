@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#hero">Supuni</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" class="hero-section bg-light py-5">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-5 text-center text-lg-start">
+              <img src="images/profile.jpg" alt="Profile" class="img-fluid rounded-circle border border-4 border-primary shadow profile-img" />
+            </div>
+            <div class="col-lg-7">
+              <p class="text-uppercase text-primary mb-2 fw-semibold">Software Quality Assurance Trainee</p>
+              <h1 class="display-5 fw-bold mb-3">Supuni Lakshika</h1>
+              <p class="lead text-secondary mb-4">I build responsive portfolio pages with Bootstrap. I enjoy learning UI design, web development, and testing best practices.</p>
+              <div class="d-flex flex-column flex-sm-row gap-2">
+                <a href="#contact" class="btn btn-primary btn-lg">Download CV</a>
+                <a href="#contact" class="btn btn-outline-secondary btn-lg">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="card shadow-sm border-0">
+                <div class="card-body">
+                  <h2 class="section-title mb-3">About Me</h2>
+                  <p class="text-muted fs-5">I am an undergraduate student with an interest in Software Quality Assurance and Web Development. I enjoy learning React, Bootstrap, JavaScript and Testing methodologies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="section-title">Skills</h2>
+            <p class="text-muted">Core tools and technologies I use for web development.</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col"><div class="card h-100 shadow-sm border-0"><div class="card-body text-center"><h5 class="card-title mb-3">HTML</h5><p class="card-text text-secondary">Building smart, responsive interfaces with HTML.</p></div></div></div>
+            <div class="col"><div class="card h-100 shadow-sm border-0"><div class="card-body text-center"><h5 class="card-title mb-3">CSS</h5><p class="card-text text-secondary">Building smart, responsive interfaces with CSS.</p></div></div></div>
+            <div class="col"><div class="card h-100 shadow-sm border-0"><div class="card-body text-center"><h5 class="card-title mb-3">Bootstrap</h5><p class="card-text text-secondary">Building smart, responsive interfaces with Bootstrap.</p></div></div></div>
+            <div class="col"><div class="card h-100 shadow-sm border-0"><div class="card-body text-center"><h5 class="card-title mb-3">JavaScript</h5><p class="card-text text-secondary">Building smart, responsive interfaces with JavaScript.</p></div></div></div>
+            <div class="col"><div class="card h-100 shadow-sm border-0"><div class="card-body text-center"><h5 class="card-title mb-3">React</h5><p class="card-text text-secondary">Building smart, responsive interfaces with React.</p></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="section-title">Projects</h2>
+            <p class="text-muted">Example projects built using React and Bootstrap.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4"><div class="card h-100 shadow-sm border-0"><img src="https://picsum.photos/seed/tasktracker/640/360" class="card-img-top" alt="Task Tracker" /><div class="card-body d-flex flex-column"><h5 class="card-title">Task Tracker</h5><p class="text-primary mb-2">React</p><p class="card-text text-secondary flex-grow-1">Responsive task tracker app with clean UI and quick controls.</p><a href="#contact" class="btn btn-outline-primary mt-3">View Project</a></div></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="card h-100 shadow-sm border-0"><img src="https://picsum.photos/seed/shoppingcart/640/360" class="card-img-top" alt="Shopping Cart" /><div class="card-body d-flex flex-column"><h5 class="card-title">Shopping Cart</h5><p class="text-primary mb-2">React</p><p class="card-text text-secondary flex-grow-1">Interactive e-commerce cart layout with product cards.</p><a href="#contact" class="btn btn-outline-primary mt-3">View Project</a></div></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="card h-100 shadow-sm border-0"><img src="https://picsum.photos/seed/portfolio/640/360" class="card-img-top" alt="Portfolio Website" /><div class="card-body d-flex flex-column"><h5 class="card-title">Portfolio Website</h5><p class="text-primary mb-2">Bootstrap</p><p class="card-text text-secondary flex-grow-1">Professional portfolio page designed with Bootstrap components.</p><a href="#contact" class="btn btn-outline-primary mt-3">View Project</a></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="card shadow-sm border-0">
+                <div class="card-body">
+                  <h2 class="section-title mb-4">Contact</h2>
+                  <form>
+                    <div class="row g-3">
+                      <div class="col-md-6"><label class="form-label" for="fullName">Full Name</label><input type="text" id="fullName" class="form-control" placeholder="Enter your name" /></div>
+                      <div class="col-md-6"><label class="form-label" for="email">Email</label><input type="email" id="email" class="form-control" placeholder="you@example.com" /></div>
+                      <div class="col-12"><label class="form-label" for="subject">Subject</label><input type="text" id="subject" class="form-control" placeholder="Project inquiry" /></div>
+                      <div class="col-12"><label class="form-label" for="message">Message</label><textarea id="message" class="form-control" rows="5" placeholder="Write your message here"></textarea></div>
+                      <div class="col-12 text-center"><button type="submit" class="btn btn-primary btn-lg px-5">Send Message</button></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-white py-4 bg-dark">
+      <div class="container text-center">
+        <p class="mb-1">Copyright © 2026</p>
+        <p class="mb-1">Supuni Lakshika</p>
+        <p class="mb-0">All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
